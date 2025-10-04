@@ -1,0 +1,28 @@
+<!ELEMENT books (book+)>
+<!ELEMENT book (magazines, users)>
+<!ELEMENT magazines (magazine+)>
+<!ELEMENT magazine (title, number, year+, editorial, article, state)>
+<!ELEMENT users (user+)>
+<!ELEMENT user (name+, direction, phones+, gmail?, tipe, loan)>
+<!ATTLIST book name CDATA #REQUIRED>
+<!ATTLIST book title CDATA #REQUIRED>
+<!ATTLIST book editorial CDATA #REQUIRED>
+<!ATTLIST book year CDATA #REQUIRED>
+<!ATTLIST book gender CDATA #REQUIRED>
+<!ATTLIST book location CDATA #REQUIRED>
+<!ATTLIST article author CDATA #REQUIRED>
+<!ATTLIST article title  CDATA #REQUIRED>
+<!ATTLIST article page  CDATA #REQUIRED>
+<!ELEMENT title (#PCDATA)>
+<!ELEMENT number (#PCDATA)>
+<!ELEMENT year (#PCDATA)>
+<!ELEMENT editorial (#PCDATA)>
+<!ELEMENT article (#PCDATA)>
+<!ELEMENT state (#PCDATA)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT direction (#PCDATA)>
+<!ELEMENT phone (#PCDATA)>
+<!ELEMENT gmail (#PCDATA)>
+<!ELEMENT tipe (#PCDATA)>
+<!ELEMENT loan (#PCDATA)>
+<!ELEMENT phones (phone+)>

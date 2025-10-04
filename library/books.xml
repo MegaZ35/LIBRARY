@@ -1,0 +1,54 @@
+<!DOCTYPE books SYSTEM "books.dtd">
+<books>
+    <book name="J.K. Rowling" title="" editorial="Bloomsbury" year="1997" gender="Fantasia" location="Londres">
+        <magazines>
+            <magazine>
+                <title>Magazine 2</title>
+                <number>30</number>
+                <year>1997</year>
+                <editorial>Bloomsbury</editorial>
+                <article author="Author1" title="Articulo1" page="6"></article>
+                <state>disponible</state>
+            </magazine>
+        </magazines>
+        <users>
+            <user>
+                <name>Bector</name>
+                <direction>Calle las torres</direction>
+                <phones>
+                    <phone>12589647</phone>
+                </phones>
+                <gmail>bector@gmail.com</gmail>
+                <tipe>estudiante</tipe>
+                <loan>Harry Potter</loan>
+            </user>
+        </users>
+    </book>
+
+
+
+    <book name="J.R.R. Tolkien" title="El Señor de los Anillos" editorial="Allen y Unwin" year="1954" gender="Fansatia" location="Reino Unido">
+        <magazines>
+            <magazine>
+                <title>Political Review</title>
+                <number>10</number>
+                <year>1950</year>
+                <editorial>Allen Y Unwin</editorial>
+                <article author="C. Lewis" title="La sociedad del control" page="9"></article>
+                <state>disponible</state>
+            </magazine>
+
+        </magazines>
+        <users>
+            <user>
+                <name>Manolo</name>
+                <direction>Calle velgica</direction>
+                <phones>
+                    <phone>25697425</phone>
+                </phones>
+                <tipe>general</tipe>
+                <loan>1984</loan>
+            </user>
+        </users>
+    </book>
+</books>
